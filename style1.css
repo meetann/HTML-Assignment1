@@ -1,0 +1,97 @@
+*
+{
+	margin: 0;
+	padding: 0;
+
+}
+
+
+header
+{
+	height: 40px;
+	width: 100%;
+	top: 0px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	position: fixed;
+	
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family: "Roboto",sans-serif;
+	font-size: 15px; 
+}
+
+.main-nav li a:hover
+{
+	border: 1px solid white;
+}
+
+body
+{
+	font-family: monospace;
+}
+
+.hero-image {
+	background-image: url("bgpic.jpg");
+	height: 430px;
+	margin-top: 0;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+  	/*position: relative;*/
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+  font-family: 'Courgette', cursive;
+  text-shadow: 5px 5px 5px gray;
+  color: gray;
+}
+
+
+div
+{
+	 
+	color: black;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	/*text-shadow: 5px 5px 5px gray;*/
+	text-align: top;
+	margin-top: 10px;
+	
+}
+
+footer {
+	margin-top: 50px;
+	width: 100%;
+	height: 50px;
+	background-color: lightgray;
+  	display: block;
+}
+
+.twitter{
+	background-color: lightgray;
+}
+
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 300px;
+}
